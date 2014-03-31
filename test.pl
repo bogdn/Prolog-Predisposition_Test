@@ -4,11 +4,11 @@
 
 zawod_jest(programista) :-
 	jest_to(informatyk),
-	pozytywne(lubisz, rozwiązywac_problemy),
+	pozytywne(lubisz, rozwiazywac_problemy),
 	pozytywne(potrafisz, pracowac_w_zespole),
 	pozytywne(wiesz, jak_tworzy_sie_oprogramowanie_komputerowe),
 	negatywne(jestes, bardzo_leniwy),
-	negatywne(jesteś, nieodpowiedzialny),
+	negatywne(jestes, nieodpowiedzialny),
 	pozytywne(znasz, jezyk_angielski),
 	negatywne(nie, mozesz_usiedziec_w_jednym_miejscu).
 	
@@ -38,7 +38,7 @@ zawod_jest(nauczyciel) :-
 zawod_jest(lekarz) :-
 	jest_to(pracownik_umyslowy),
 	pozytywne(lubisz, pomagac_innym),
-	negatywne(nie, możesz_zniesc_widoku_krwi),
+	negatywne(nie, mozesz_zniesc_widoku_krwi),
 	pozytywne(swietnie, sie_uczysz),
 	pozytywne(mam, dobry_kontakt_z_ludzmi).
 
